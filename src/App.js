@@ -12,6 +12,7 @@ import Register from './Register';
 import Products from './Products';
 import Cart from './Cart';
 import Checkout from './Checkout';
+import Admin from './Admin';
 
 // ไม่มีฟังก์ชัน App ซ้อนกันในไฟล์ ต้องเขียนฟังก์ชัน App เดียวเท่านั้น
 const App = () => {
@@ -42,6 +43,7 @@ const App = () => {
           <Route path="/Products" element={<Products addToCart={addToCart} />} />
           <Route path="/Cart" element={<Cart cartItems={cartItems} />} />
           <Route path="/Checkout" element={<Checkout totalPrice={totalPrice} />} />
+          <Route path="/Admin" element={<Admin />} />
         </Routes>
       </div>
     </Router>
