@@ -1,0 +1,63 @@
+.checkout-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ddd; /* กรอบรอบกล่องทั้งหมด */
+    border-radius: 10px; /* ขอบมน */
+    width: 50%;
+    margin: 0 auto;
+    background-color: #f9f9f9; /* เพิ่มพื้นหลังอ่อน */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* เพิ่มเงา */
+  }
+  
+  .quantity-control {
+    margin: 25px 0;
+    display: inline-block; /* ทำให้กล่องควบคุมปริมาณสินค้าอยู่ตรงกลาง */
+    padding: 10px;
+    border: 1px solid #ccc; /* กรอบรอบจำนวนสินค้า */
+    border-radius: 10px; /* ขอบมน */
+    background-color: #fff;
+  }
+  
+  .quantity-button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+    outline: none; /* ลบเส้นขอบเมื่อคลิก */
+  }
+  
+  .quantity-button:hover {
+    background-color: #ddd;
+  }
+  
+  .checkout-button, .back-button {
+    background-color: #ff6347; /* สีส้มสด */
+    color: white;
+    border: 2px solid #ff4500; /* กรอบรอบปุ่ม */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .checkout-button:hover, .back-button:hover {
+    background-color: #ff4500; /* สีส้มเข้ม */
+    border-color: #ff6347; /* เปลี่ยนสีกรอบเมื่อ hover */
+  }
+  
+  .back-button {
+    background-color: #4682b4; /* สีฟ้า */
+    border-color: #4169e1; /* กรอบสีฟ้า */
+  }
+  
+  .back-button:hover {
+    background-color: #4169e1; /* สีฟ้าเข้ม */
+    border-color: #4682b4; /* เปลี่ยนสีกรอบเมื่อ hover */
+  }
+  

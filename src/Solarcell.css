@@ -1,0 +1,42 @@
+.solarcell-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .solarcell-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .solarcell-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .portfolio-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio-item {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .portfolio-item h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .portfolio-item p {
+    margin: 5px 0;
+  }
+  

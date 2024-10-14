@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.login-btn {
+  background-color: orange;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero-section {
+  background-color: #f4f4f4;
+  padding: 50px;
+  text-align: center;
+}
+
+.shop-now-btn {
+  background-color: orange;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.products-section {
+  padding: 50px;
+}
+
+.products-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-image {
+  max-width: 100px;
+}
+
+.buy-now {
+  background-color: orange;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.product-list, .cart-container, .checkout-container {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.register-link {
+  margin-top: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
